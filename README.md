@@ -1,7 +1,7 @@
 scrawl-package
 ===============================================================================
 
-Parse package info and inline documentation into JSON using [scrawl][scrawl].
+Generate npm package reference using [scrawl][scrawl].
 
 Usage
 -------------------------------------------------------------------------------
@@ -10,7 +10,7 @@ Usage
 
 Then, point it at files in the current directory:
 
-    var info = require('scrawlProject')({
+    var packageInfo = require('scrawlProject')({
       match: [
         'index.js',
         'src/**/*.js'
